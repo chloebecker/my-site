@@ -1,3 +1,25 @@
 #header {
+  
   text-align: center;
+  padding: 8em 2em 6em 2em;
+  background: rgba(249, 224, 255, .3);
 }
+
+#content {
+  padding: 10em;
+  /*background: rgba(204, 255, 234, .3);*/
+}
+
+#projects {
+  
+}
+
+.example {
+  display: inline-block;
+  height: 15em;
+  width: 22em;
+  margin: 2em;
+  background: rgba(200, 200, 200, .5);
+  border-radius: 1em;
+}
+
