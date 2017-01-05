@@ -1,25 +1,75 @@
 #header {
   
   text-align: center;
-  padding: 8em 2em 6em 2em;
-  background: rgba(249, 224, 255, .3);
+  padding: 8em 2em 3.5em 2em;
+  background: #6E91CF;
+  background-image: url(../images/header-desk.jpg);
+  background-size: 100%;
+  color: white;
 }
 
-#content {
-  padding: 10em;
-  /*background: rgba(204, 255, 234, .3);*/
+
+#aboutMe {
+  font-size: 16px;
+  margin-bottom: 2em;
 }
 
-#projects {
-  
+.about {
+  display: inline-block;
+}
+img.about {
+  border-radius: 1em;
+  vertical-align: top;
+}
+p.about {
+  width: 30em;
+  margin-right: 2em;
 }
 
-.example {
+
+.projectLink {
   display: inline-block;
   height: 15em;
-  width: 22em;
-  margin: 2em;
+  width: 20em;
+  margin: 1.5em 1em 2em 0em;
   background: rgba(200, 200, 200, .5);
   border-radius: 1em;
+}
+
+span.linkText {
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  padding: 6em 0;
+  height: 15em;
+  width: 20em;
+  border-radius: 1em;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+div.projectLink:hover span.linkText {
+  opacity: 1;
+}
+
+
+/*use sass to consolidate these?*/
+#scrabble {
+  background-image: url(../images/project-scrabble.jpg);
+  background-size: 120%;
+}
+
+#fixmybio {
+  background-image: url(../images/project-fixmybio.jpg);
+  background-size: 120%;
+}
+
+#website {
+  background-image: url(../images/chloe2.jpg);
+  background-size: 100%;
 }
 
