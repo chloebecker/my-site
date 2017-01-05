@@ -14,6 +14,16 @@
   margin-bottom: 2em;
 }
 
+#projects p {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+td {
+  width: 260px;
+  vertical-align: top;
+}
+
 .about {
   display: inline-block;
 }
@@ -31,7 +41,7 @@ p.about {
   display: inline-block;
   height: 15em;
   width: 20em;
-  margin: 1.5em 1em 2em 0em;
+  margin: 1.5em 2em 0em 0em;
   background: rgba(200, 200, 200, .5);
   border-radius: 1em;
   cursor: pointer;
@@ -73,3 +83,5 @@ div.projectLink:hover span.linkText {
   background-image: url(../images/chloe2.jpg);
   background-size: 100%;
 }
+
+
