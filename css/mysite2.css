@@ -34,6 +34,7 @@ p.about {
   margin: 1.5em 1em 2em 0em;
   background: rgba(200, 200, 200, .5);
   border-radius: 1em;
+  cursor: pointer;
 }
 
 span.linkText {
@@ -72,4 +73,3 @@ div.projectLink:hover span.linkText {
   background-image: url(../images/chloe2.jpg);
   background-size: 100%;
 }
-
