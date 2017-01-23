@@ -16,12 +16,17 @@
 
 #projects p {
   font-size: 16px;
-  padding-right: 30px;
+  padding: .5em 0;
 }
 
 td {
   width: 260px;
   vertical-align: top;
+}
+
+tr.titles, h3 {
+  text-align: center;
+  padding-right: 1.5em;
 }
 
 .about {
@@ -52,7 +57,7 @@ span.linkText {
   text-align: center;
   background: rgba(0,0,0,0.5);
   position: absolute;
-  padding: 6em 0;
+  padding: 2em 1em;
   height: 15em;
   width: 20em;
   border-radius: 1em;
@@ -83,5 +88,3 @@ div.projectLink:hover span.linkText {
   background-image: url(../images/chloe2.jpg);
   background-size: 100%;
 }
-
-
